@@ -50,8 +50,6 @@ public void testTakeCar() throws Exception {
     assertFalse(lot.takeCar());
     lot.parkCar();
     assertTrue(lot.takeCar());
-    assertTrue(lot.takeCar());
-	System.out.println("testing takecar!");
 } 
 
 
